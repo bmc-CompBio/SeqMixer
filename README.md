@@ -29,7 +29,7 @@ OR
 * Run app
 
 
-## Examples
+## Example
 
 
 <img src="README_files/figure-html/unnamed-chunk-1-1.png" style="display: block; margin: auto;" />
