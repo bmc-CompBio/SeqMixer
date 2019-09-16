@@ -31,7 +31,7 @@ OR
 * Run app
 
 
-## Examples
+## Example
 
 
 ```{r, echo=FALSE, dpi=300, fig.align='center'}
