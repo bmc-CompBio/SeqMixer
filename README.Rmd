@@ -1,0 +1,49 @@
+---
+title: "README"
+output: 
+    html_document:
+        keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## SeqMixer
+
+This is a Shiny app to shuffle DNA sequences while maintaining the encoded amino acid sequence.
+
+* Input: text insert
+* Substitutes based on codon usage (current: Drosophila)
+* Output: mixed sequence
+
+
+## Installation
+
+* Use the online version: https://tschauer.shinyapps.io/SeqMixer/
+
+OR
+
+* Download the app.R file
+* Open the file in RStudio
+* Install the required packages (see in the file)
+* Run app
+
+
+## Examples
+
+
+```{r, echo=FALSE, dpi=300, fig.align='center'}
+library(png)
+
+example <- readPNG("example.png")
+
+
+plot(0:1,0:1, type='n', xlab="", ylab="", xaxt="n", yaxt="n", bty="n")
+rasterImage(example, xleft = 0, ybottom = 0, xright = 1, ytop = 1)
+
+```
+
+
+
